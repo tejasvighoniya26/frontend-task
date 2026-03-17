@@ -1,8 +1,7 @@
 * {
     list-style: none;
-     box-sizing:border-box;
+    box-sizing: border-box;
 }
-
 body {
     background-color: #F7F7F4;
     overflow-x: hidden;
@@ -10,43 +9,23 @@ body {
     font-weight: 600;
     margin: 0;
 }
-
 .section {
     display: flex;
-    /* margin: 0px 20px 0px 20px; */
-    /* padding: 20px; */
 }
-.container
-{
+.container {
     width: 250px;
     padding-left: 20px;
+
 }
-.contain{
-    flex: 1;
-    /* display: flex; */
+.contain {
+    padding: 20px;
     margin-left: 10px;
     margin-right: 20px;
-}
-
-@media (max-width:425px){
-
-    /* .section{
-        flex-direction: column;
-    } */
-
-    /* .container{
-        width: 100%;
-        order: 1;  
-    }
-    .contain{
-        order: 2; 
-    } */
 }
 .img {
     margin-left: 125px;
     margin-top: 50px;
 }
-
 .level {
     background-color: white;
     border-radius: 30px;
@@ -54,7 +33,6 @@ body {
     width: 100%;
     margin-right: 20px;
 }
-
 .data {
     margin: 40px 0px 0px 0px;
     padding: 10px 100px 10px 20px;
@@ -64,16 +42,13 @@ body {
     display: flex;
     align-items: center;
 }
-
 .dashbord {
     padding-top: 10px;
     margin-bottom: 10px;
 }
-
 label {
     margin-left: 10px;
 }
-
 .data1 {
     margin-top: 20px;
     margin-left: 30px;
@@ -83,36 +58,12 @@ label {
     padding: 10px 0px 10px 20px;
     margin: 20px 0px 0px 0px;
 }
-
-.card{
+.card {
     display: grid;
-    grid-template-columns: 1fr;   
+    grid-template-columns: 1fr;
     gap: 30px;
     max-width: 1600px;
     margin: auto;
-}
-
-@media (min-width:768px){
-    .card{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-@media (min-width:1024px){
-    .container{
-        width: 500px;
-        font-size: 20px;
-    }
-    .card1{
-        height: 70px !important;
-    }
-    .card{
-        grid-template-columns: repeat(3,1fr);
-        justify-content: space-between;
-    }
-    .section_1{
-        width: 550px !important;
-    }
 }
 .section_1 {
     background-color: white;
@@ -121,11 +72,9 @@ label {
     padding: 20px;
     margin-top: 20px;
 }
-
 .img1 {
     height: 50px;
 }
-
 .tab {
     display: flex;
     font-size: 14px;
@@ -133,23 +82,19 @@ label {
     padding-right: 20px;
     justify-content: space-between;
 }
-
 .tab1 {
     display: flex;
     font-size: 14px;
     gap: 20px;
 }
-
 .task {
     display: flex;
     color: #65676D;
 }
-
 .task b {
     font-weight: 900;
     color: #000000 !important;
 }
-
 .high {
     padding: 0px 6px 0px 7px;
     border: 1px solid #FF6C65;
@@ -162,21 +107,18 @@ label {
     border-radius: 10px;
     color: #007AFF;
 }
-
 .high0 {
     padding: 0px 6px 0px 7px;
     border: 1px solid #60B158;
     border-radius: 10px;
     color: #60B158;
 }
-
 .high01 {
     background-color: #FFF5E1;
     padding: 0px 20px 0px 20px;
     border-radius: 10px;
     color: #FFA800;
 }
-
 .high2 {
     background-color: #f7dbcd;
     padding: 2px;
@@ -186,17 +128,6 @@ label {
     text-align: center;
     font-weight: 600;
 }
-
-.high02 {
-    background-color: #f7dbcd;
-    padding: 2px;
-    border-radius: 10px;
-    color: #FD7B38;
-    width: 200px;
-    text-align: center;
-    font-weight: 600;
-}
-
 .card1 {
     background-color: white;
     border-radius: 20px;
@@ -206,7 +137,6 @@ label {
     justify-content: space-between;
     align-items: center;
 }
-
 .set1 {
     display: flex;
     align-items: center;
@@ -217,13 +147,11 @@ label {
     background: #F7F6F4;
 
 }
-
 .search {
     width: 18px;
     height: 18px;
     margin-right: 8px;
 }
-
 .search-input {
     border: none;
     outline: none;
@@ -232,61 +160,66 @@ label {
     background: #F7F6F4;
 
 }
-
 .set2 {
     display: flex;
     align-items: center;
     gap: 15px;
     padding-right: 15px;
 }
-
 .tips {
     width: 25px;
     height: 25px;
 }
-
 .profile {
     width: 35px;
     height: 35px;
     border-radius: 50%;
 }
-
 .search p {
     color: #65676D;
 }
-
 .card2 {
     display: flex;
     margin-bottom: 15px;
+    align-items: center;
     justify-content: space-between;
 }
-
 .collection {
     width: 45px;
     height: 45px;
 }
-
-.des {
-    margin-top: -17px;
-    margin-right: 70px;
+.des1 {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px
 }
-
+.des1 h3 {
+    margin-bottom: 45px;
+}
+.des {
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.title {
+    margin-top: -20px;
+}
 .subtitile {
-    margin-top: -15px;
+    margin-top: -43px;
     color: #65676D;
 }
-
+.subtitile1 {
+    margin-top: -10px;
+    color: #65676D;
+}
 .row {
     display: flex;
 }
-
 .pr {
     background-color: #F1F2F4;
     padding: 0px 6px 0px 7px;
     border-radius: 10px;
     color: #65676D;
 }
-
 .pr1 {
     background-color: #F0F8EF;
     padding: 0px 6px 0px 7px;
@@ -294,7 +227,6 @@ label {
     color: #60B158;
 
 }
-
 .pr01 {
     background-color: #F0F8EF;
     padding: 0px 20px 0px 20px;
@@ -302,44 +234,33 @@ label {
     color: #60B158;
 
 }
-
 .images1 {
     margin-left: -21px;
 }
-
-.row2 {
-    /* margin-left: 65px; */
-    display: flex;
-}
-
+.row2 {display: flex;}
 .pro {
     margin-bottom: 10px;
     accent-color: #545DAD;
     height: 20px;
     width: 350px;
-
 }
-
 .pro1 {
     margin-bottom: 10px;
     height: 20px;
     accent-color: #f03bb1;
     width: 350px;
 }
-
 .card3 {
     display: flex;
     margin-bottom: 15px;
     justify-content: space-between;
 }
-
 .plus {
     height: 20px;
     width: 20px;
     margin-top: 25px;
     margin-right: 15px;
 }
-
 .provide {
     display: flex;
     align-items: center;
@@ -349,7 +270,6 @@ label {
     margin-left: -10px;
     margin-right: -20px;
 }
-
 .provide1 {
     display: flex;
     align-items: center;
@@ -362,7 +282,11 @@ label {
     border-left: 1px solid #FD7B38;
     background-color: #f7dbcd;
 }
-
+.abcd {display: flex;}
+.abcd h4 {
+    margin-left: 7px;
+    margin-top: 16px;
+}
 .provide2 {
     display: flex;
     align-items: center;
@@ -371,25 +295,18 @@ label {
     color: #65676D;
     margin-left: -10px;
     margin-right: -10px;
-    margin-bottom: -5px;
 }
-
-.right {
-    margin-right: 7px;
-}
-
+.right {margin-right: 7px;}
 .d-flex {
     margin-left: 30px;
     display: flex;
     gap: 10px;
 }
-
 .d-flex1 {
     margin-left: 20px;
     display: flex;
     gap: 20px;
 }
-
 .d-flex2 {
     margin-left: 20px;
     margin-top: -6px;
@@ -398,71 +315,45 @@ label {
     gap: 10px;
     color: #000000;
 }
-
 .d-flex1 img {
     height: 23px;
     width: 20px;
     margin-top: 15px;
 }
-
 .my_task {
     margin-left: -10px;
     margin-right: 20px;
 }
-
 .my_task1 {
     margin-left: -10px;
     margin-right: 10px;
     color: #000000;
 }
-
 .cal {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 25px;
+    margin-left: 10px;
 }
-
-.cursor {
-    padding-right: 120px;
-}
-
 .day {
+    margin-left: -15px;
     display: flex;
     align-items: center;
 }
-
 .num {
     justify-content: space-around;
-    /* background-color: red; */
     margin: 20px;
 }
-
-.date {
-    margin: 0px -6px -20px -10px;
-}
-
-ul {
-    /* background-color: orange; */
-    padding: 0px 15px 0px 15px;
-}
-
+.date {margin: 0px -6px -20px -10px;}
+ul { padding: 0px 15px 0px 15px;}
 li {
     margin-top: 20px;
     font-weight: 600;
     padding: 7px;
     text-align: center;
-    /* background-color: green; */
 }
-
-.col {
-    color: #8e9097;
-}
-
-.col1 {
-    color: #404245;
-}
-
+.col {color: #8e9097;}
+.col1 {color: #404245;}
 .col2 {
     color: #ffffff;
     background-color: #FD7B38;
@@ -473,19 +364,158 @@ li {
     align-items: center;
     padding: 6px;
 }
-
 .play {
     height: 37px;
     margin-top: 25px;
-    margin-left: 200px;
+    margin-right: 50px;
 }
-
 .pause {
     margin-right: 50px;
 }
-
 .msg {
     display: flex;
     margin-top: 10px;
     align-items: center;
+}
+@media (min-width:320px) { 
+    .data {
+        margin: 40px 0px 0px 0px !important;
+        padding: 10px 60px 10px 20px !important;
+    }
+    .img {
+    margin-left: 95px !important;
+    margin-top: 50px !important;
+    }
+.container{
+    padding-top: 20px;
+}
+}
+
+@media (min-width:768px) {
+    .card {grid-template-columns: repeat(2, 1fr);}
+}
+
+@media (min-width:1024px) {
+    .container {
+        width: 500px;
+        font-size: 20px;
+    }
+    .card1 {height: 70px !important;}
+
+    .card {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+    }
+    .data {
+        margin: 40px 0px 0px 0px !important;
+        padding: 10px 60px 10px 13px !important;
+    }
+    .img {
+        margin-left: 95px !important;
+    margin-top: 50px !important;
+    }
+}
+
+@media (min-width:2560px) {
+    .container {font-size: 25px !important;}
+
+    .card1 {width: 125%;}
+
+    .section_1 {
+        width: 650px !important;
+        font-size: 25px !important;
+    }
+
+    li {margin: 10px 7px 20px;}
+
+    .day {justify-content: space-between;}
+
+    .contain { font-size: 22px !important;}
+
+    .set1 { width: 350px !important;}
+
+    .search {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .search-input {
+        font-size: 22px !important;
+        width: 100%;
+    }
+
+    .abcd h4 {
+        margin-left: 40px !important;
+        margin-top: 22px !important;
+    }
+
+    .d-flex1 img { margin-top: 25px !important;}
+
+    .img1 {height: 80px !important;}
+
+    .tab {font-size: 20px !important;}
+
+    .tab1 {
+        font-size: 20px !important;
+        gap: 40px !important;
+    }
+
+    .pr1 {padding: 0px 15px 0px 15px !important;}
+
+    .high01 {padding: 0px 15px 0px 15px !important;}
+
+    .high1 {padding: 0px 15px 0px 15px !important;}
+
+    .pr {padding: 0px 15px 0px 15px !important;}
+
+    .high {padding: 0px 15px 0px 15px !important;}
+
+    .pr01 {padding: 0px 15px 0px 15px !important;}
+
+    .high0 {padding: 0px 15px 0px 15px !important;}
+
+    .high2 {width: 300px !important;}
+
+    .pro {
+        height: 40px !important;
+        width: 600px !important;
+    }
+    .pro1 {
+        height: 40px !important;
+        width: 600px !important;
+    }
+    .images img {height: 90px;}
+
+    .images1 {
+        height: 90px;
+        margin-left: -35px !important;
+    }
+
+    .img {
+        margin-left: 198px !important;
+        margin-top: 90px !important;
+        width: 60px;
+    }
+    .data {
+        margin: 40px 0px 0px 0px !important;
+        padding: 10px 260px 10px 20px !important;
+    }
+    .tips {
+        width: 40px !important;
+        height: 40px !important;
+        margin-right: 60px;
+    }
+    .profile {
+        width: 50px !important;
+        height: 50px !important;
+        margin-left: -60px;
+    }
+    .cursor img{
+        width: 60px;
+    }
+    .plus {
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .right img{width: 50px !important;}
 }
